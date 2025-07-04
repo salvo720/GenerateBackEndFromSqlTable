@@ -7,23 +7,21 @@ set up gitlab, repo con master protetto e branch di sviluppo develop,
 setUp pipeline tipo quelle di gitlab, per il lint al push su master
 
 git strategy: 
-branch sviluppo -> develop -> master/main
+develop -> master/main
 
 # wave 1 sviluppo: 
 
-inizializzaione progetto
-
+inizializzaione progetto: 
 front-end vue 3 e bootstrap 5 o boostrap italia 
 
-base 1 pagina: 
 
-caricare il sql ella tabella, leggerlo e convertirlo in json 
-caricare il json in vue 
-Generare il codice back-end base per GET/POST/PUT/DELETE 
+# 1 pagina: 
+caricare il sql ella tabella, leggerlo e convertirlo in json , 
+tasto elabora per processare il sql in json 
+generare il codice back-end base per GET/POST/PUT/DELETE 
 
 
 Cancellazione logica del db 
-
 lista back-end:
 php, java , dropwizard, spring, jhipster, .net
 
